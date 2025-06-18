@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - Fresh Fruits</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #2e7d32;
+      padding: 10px;
+      text-align: center;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+    #gallery {
+      padding: 40px;
+      text-align: center;
+      background-color: yellow;
+    }
+    #gallery h2 {
+      color: #2e7d32;
+      font-size: 32px;
+    }
+    #gallery p {
+      font-size: 16px;
+      color: #666;
+      max-width: 600px;
+      margin: 10px auto 30px;
+    }
+    .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .gallery-item {
+      width: 250px;
+      height: 300px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .gallery-item img:hover {
+      transform: scale(1.05);
+    }
+    .video-wrapper {
+      margin-top: 40px;
+    }
+    .video-wrapper video {
+      max-width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="Booking.html">Booking</a>
+  </div>
+
+  <section id="gallery">
+    <h2>Our Gallery</h2>
+    <p>Explore the freshness! Take a look at our colorful collection of farm-fresh fruits. From handpicked mangoes to juicy pineapples and vibrant berries — every photo tells a story of quality and natural goodness.</p>
+    
+    <div class="gallery-container">
+      <div class="gallery-item"><img src="PRICES MAY VARY_ Zones 9-11 Well-rooted mango tree….jpeg" alt="Fresh Mangoes"></div>
+      <div class="gallery-item"><img src="30b56c17-47c5-4308-83eb-b1bcdaafc08f.jpeg" alt="Juicy Pineapples"></div>
+      <div class="gallery-item"><img src="bananas.jpeg" alt="Ripe Bananas"></div>
+      <div class="gallery-item"><img src="a1abeda6-9558-4880-97fd-90445a247396.jpeg" alt="Mixed Fruit Basket"></div>
+      <div class="gallery-item"><img src="✨PLATEAU DE FRUITS FRAIS… _ Instagram.jpeg" alt="Colorful Berries"></div>
+      <div class="gallery-item"><img src="f15bf454-a333-4c2b-b9bb-65debd7ecacd.jpeg" alt="Fruit Assortment"></div>
+      <div class="gallery-item"><img src="d3dafab5-17bd-4bed-b52b-8e937d669b49.jpg" alt="Fruit Stand"></div>
+      <div class="gallery-item"><img src="1382afdb-9230-47db-bca2-c892970bfb82.jpeg" alt="Fruit Cart"></div>
+      <div class="gallery-item"><img src="dreamy bags.jpeg" alt="Fruit Bags"></div>
+      <div class="gallery-item"><img src="Photo fruits in basket realistic stunnin….jpeg" alt="Fruit Basket"></div>
+      <div class="gallery-item"><img src="download.jpeg" alt="Fresh Oranges"></div>
+      <div class="gallery-item"><img src="49e981b7-3bca-496a-b963-0f97eb3e9f12.jpeg" alt="Fruit Display"></div>
+    </div>
+
+    <!-- Embedded video section -->
+    <div class="video-wrapper">
+      <h3>Watch Our Farm in Action</h3>
+      <video controls>
+        <source src="0001.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+</body>
+</html>

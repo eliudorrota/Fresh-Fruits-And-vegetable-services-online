@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Booking</title>
+</head>
+<body  style="background-color: lightblue;background-image:url('a1abeda6-9558-4880-97fd-90445a247396.jpeg');background-size: cover; color:white;font-size:22px">
+  
+<form action="process_booking.php" method="post">
+<h1><marquee color="blue">WELCOME TO FRESH FRUITS ONLINE FOR BETTER SERVICE</marquee></h1>
+<center>
+    <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    <a href="Booking.html">Booking</a>
+  </nav>
+      
+    </nav>
+<h2>please fill the form for the services that you need.</h2>
+
+  <!-- Name of the customer -->
+  <label for="Name">your name:</label><br>
+  <input type="text" id="name" name="jina" required><br><br>
+  
+  <!-- Phone -->
+  <label for="Number">Phone Number:</label><br>
+  <input type="text" id="number" name="number" required><br><br>
+  
+  <!-- Kind of services -->
+  <label for="services">Choose services:</label><br>
+  <select id="Services" name="Services" required>
+    <option value="">choose services</option>
+    <option value="special occassions">fruit baskets for special occasions like birthdays, weddings, and holidays</option>
+    <option value="fruit gift">packed fruit gift boxes</option>
+    <option value="supply"> fresh fruit and vegetables supply to hotels, schools, offices</option>
+    <option value="Mixed Fruit Basket">Mixed Fruit Basket</option>
+    <option value="Fresh Mangoes">Fresh Mangoes</option>
+
+  </select><br><br>
+
+  <!-- Dare of booking -->
+  <label for="Date">Choose date:</label><br>
+  <input type="date" id="Date" name="Date" required><br><br>
+
+  <!-- Time -->
+  <label for="saa">Choose time:</label><br>
+  <input type="time" id="saa" name="Time"><br><br>
+
+  <!-- For more details -->
+  <label for="details">for more details:</label><br>
+  <textarea id="Details" name="Details" rows="4" cols="30"></textarea><br><br>
+
+  <input type="submit" value="submitt Booking">
+
+</form>
+<p>After submitting, we will send you confirmation of your reservation via SMS within 24 hours.
+</p>
+</center>
+
+</body>
+</html>
